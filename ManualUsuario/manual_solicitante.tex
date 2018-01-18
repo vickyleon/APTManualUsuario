@@ -1,0 +1,34 @@
+\documentclass[oneside,10pt,letterpaper]{book}
+
+\usepackage{formato_cdt}          % El rollo de la CDT
+\newcommand{\Titulo}{Manual de usuario: solicitante}
+\usepackage{formato_propio}       % Nuestro rollo
+\usepackage{manual_de_usuario}
+
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+\mainmatter
+%%=========================================================
+\chapter{Uso General Del Sistema}
+\section{Entorno De Trabajo}
+En esta sección se describe el entorno de trabajo del sistema, se explica la disposición
+de los elementos principales y comunes de las pantallas, los colores, la iconografía, componentes, etc.
+utilizados dentro del sistema y el uso general del sistema.
+
+\subsection{Diseño}
+	\input{workEnvironment/solicitante/design}
+
+\subsection{Iconografía}
+	\input{workEnvironment/iconography}
+\subsection{Organización}
+	\input{menus/menuSolicitante}
+
+\subsection{Componentes Utilizados}
+	\input{workEnvironment/components}
+
+\input{PRATS/01_indiceSolicitante}
+
+%%\input{images/interfaces/ApoyoTecnico/pantallas}
+\end{document}

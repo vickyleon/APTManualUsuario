@@ -1,0 +1,51 @@
+%--------Se especifica el tipo de documento
+\documentclass[oneside,10pt]{book}
+%--------------Hojas de Estilos
+\usepackage{DEBook}
+\usepackage{userManual}
+%-------- Datos del documento
+\title{Sistema De BiBlioteca}
+\subtitle{Biblioteca Central}
+\author{3CM2}
+\organization{Escuela Superior de Cómputo, IPN}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+\mainmatter
+%%=========================================================
+\chapter{Uso General Del Sistema}
+\section{Entorno De Trabajo}
+En esta sección se describe el entorno de trabajo del sistema, se explica la disposición
+de los elementos principales y comunes de las pantallas, los colores, la iconografía, componentes, etc.
+utilizados dentro del sistema y el uso general del sistema.
+\subsection{Diseño}
+\UMDesignFigure{designexample}{Ejemplo de figura}
+\subsection{Iconografía}
+En el sistema se utilizan iconos para denotar las diferentes operaciones que el usuario puede realizar
+en el sistema. Los iconos utilizados se describen a continuación:
+Nota: Desarrollo tiene que tener sus íconos para que el equipo de plantillas pueda generar el comando específico
+\begin{Iconography}
+	\item \ICexample Icono de Ejemplo
+\end{Iconography}
+\subsection{Organización}
+Las funcionalidades del sistema se encuentran organizadas por menús. Cada perfil de usuario accede
+a un menú diferente ya que este le describe su ciclo de trabajo y las funciones que puede realizar.
+\OMenu{Menú de Ejemplo}{example}{Menú de ejemplo}
+Se describe el menú, de manera que indique en qué, para qué y porqué se usa.
+\subsection{Componentes Utilizados}
+En esta sección se explican los diferentes componentes que se utilizan para capturar o mostrar
+información en el sistema.
+\OComponent{Componente de Ejemplo}{example}{Componente de ejemplo}
+Se describe el componente.
+\chapter{Información General Del Proceso}
+Este capítulo explica el proceso que se lleva a cabo.
+\subsection{Información 1}
+Aquí se describe la información relacionada a un actor o a los documentos/entradas que este necesite para el proceso.
+\chapter{Sub Paso 1 de Proceso X}
+\begin{UMStep}{Paso de Ejemplo}
+	\item Elemento 1
+	\item Elemento 2
+\end{UMStep}
+\end{document}

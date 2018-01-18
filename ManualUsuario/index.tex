@@ -1,0 +1,38 @@
+%--------Se especifica el tipo de documento
+\documentclass[oneside,10pt]{book}
+%--------------Hojas de Estilos
+\usepackage{DEBook}
+\usepackage{userManual}
+%-------- Datos del documento
+\title{Sistema De Biblioteca}
+\subtitle{Biblioteca Central}
+\author{3CM2}
+\organization{Escuela Superior de Cómputo, IPN}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+\mainmatter
+%%=========================================================
+\chapter{Uso General Del Sistema}
+\section{Entorno De Trabajo}
+En esta sección se describe el entorno de trabajo del sistema, se explica la disposición
+de los elementos principales y comunes de las pantallas, los colores, la iconografía, componentes, etc.
+utilizados dentro del sistema y el uso general del sistema.
+\subsection{Diseño}
+\input{workEnvironment/design}
+\subsection{Iconografía}
+\input{workEnvironment/iconography}
+\subsection{Organización}
+\input{menus/menus}
+\subsection{Componentes Utilizados}
+\input{workEnvironment/components}
+\chapter{Información General Del Proceso X}
+Este capítulo explica el proceso que se lleva a cabo.
+\subsection{Información 1}
+\input{steps/exampleStep1}
+\subsection{Información 2}
+\input{steps/exampleStep2}
+Referencias interfaces \UIRef{MenuEjemplo}{IUGSx}
+\end{document}

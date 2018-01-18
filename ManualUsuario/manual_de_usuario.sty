@@ -1,0 +1,128 @@
+\usepackage{chapterfolder}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Definición de comandos para La subsección de Diseño
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uso: \UMDesignFigure{imagen}{Anotación}
+% Nota: La imagén debe estar en images/design/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\UMDesignFigure}[2]
+{
+	\begin{figure}[h]
+		\includegraphics[scale=.8]{images/design/#1}
+		\caption{#2}
+	\end{figure}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Definición de los iconos para usar en la iconografía.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\ICexample{\includegraphics[height=23pt]{images/icons/example}}
+\newcommand\ICCancel{\includegraphics{images/icons/cancelar}}
+\newcommand\ICConfirm{\includegraphics{images/icons/confirmar}}
+\newcommand\ICQuery{\includegraphics{images/icons/consultar}}
+\newcommand\ICUnlockA{\includegraphics{images/icons/desbloquear_1}}
+\newcommand\ICUnlockB{\includegraphics{images/icons/desbloquear_2}}
+\newcommand\ICEmail{\includegraphics{images/icons/email}}
+\newcommand\ICManageLoan{\includegraphics{images/icons/gestionarPrestamo}}
+\newcommand\ICManageResource{\includegraphics{images/icons/gestionarRecurso}}
+\newcommand\ICTime{\includegraphics{images/icons/hora}}
+\newcommand\ICHome{\includegraphics{images/icons/inicio}}
+\newcommand\ICName{\includegraphics{images/icons/nombre}}
+\newcommand\ICPassword{\includegraphics{images/icons/pass}}
+\newcommand\ICBooking{\includegraphics{images/icons/reservar}}
+\newcommand\ICStudyRoom{\includegraphics{images/icons/salaDeEstudio}}
+\newcommand\ICExpRoom{\includegraphics{images/icons/salaDeExpo}}
+\newcommand\ICWorkRoom{\includegraphics{images/icons/salaDeTrabajo}}
+\newcommand\ICLogOut{\includegraphics{images/icons/salir}}
+\newcommand\ICUser{\includegraphics{images/icons/usuario}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Definición de comandos para la iconografía.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uso:
+%\begin{Iconography}
+%	\item \ICexample Icono de Ejemplo
+%\end{Iconography}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{Iconography}[0]
+{
+	\begin{itemize}
+}
+{\end{itemize}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Definición de comandos para la organización de los menús.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uso:
+%\OMenu{Menú de Ejemplo}{example}{Menú de ejemplo}
+%Nota:las imágenes de los menús deben de estar en images/menus/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\OMenu}[3]
+{
+
+	{\color{olive}\subsubsection{#1}}
+	\begin{figure}[ht]
+		\includegraphics[scale=1]{images/menus/#2}
+		\caption{#3}
+		\label{#3}
+	\end{figure}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Definición de comandos para la descripción de los componentes
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uso:
+%\OComponent{Componente de Ejemplo}{example}{Componente de ejemplo}
+%Nota:las imágenes de los menús deben de estar en images/components/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\OComponent}[3]
+{
+
+	{\color{olive}\subsubsection{#1}}
+	\begin{figure}[ht]
+		\includegraphics[scale=.8]{images/components/#2}
+		\caption{#3}
+	\end{figure}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uso:
+%\begin{UMStep}{Paso de Ejemplo}
+%	\item Elemento 1
+%	\item Elemento 2
+%\end{UMStep}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{UMStep}[1]
+{%
+	{\color{olive}\subsubsection{#1}}
+	\begin{enumerate}\addtolength{\itemsep}{-0.5\baselineskip}%
+}
+{%
+ 	\end{enumerate}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Definición de comando para referenciar a las interfaces
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uso:
+%\UIRef{Identificador de referencia}{Nombre a mostrar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\UIRef}[2]
+{
+	\hyperref[#1]{\color{blue}#2}
+}
+
+

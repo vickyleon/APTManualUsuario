@@ -1,7 +1,0 @@
-*.aux
-*.log
-*.synctex.gz
-*.toc
-*.log
-tmp/*
-*.sty

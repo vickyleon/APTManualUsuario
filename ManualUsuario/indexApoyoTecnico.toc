@@ -1,0 +1,71 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Uso General Del Sistema}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Entorno De Trabajo}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Dise\IeC {\~n}o}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Iconograf\IeC {\'\i }a}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Organizaci\IeC {\'o}n}{3}{subsection.1.1.3}
+\contentsline {subsubsection}{Men\IeC {\'u} de Ejemplo}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Componentes Utilizados}{3}{subsection.1.1.4}
+\contentsline {subsubsection}{Componente de Ejemplo}{4}{subsection.1.1.4}
+\contentsline {chapter}{\numberline {2}Proceso Iniciar Sesi\IeC {\'o}n}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Paso 1 de Iniciar sesi\IeC {\'o}n. Iniciar sesi\IeC {\'o}n}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Subpaso 1-A de Iniciar sesi\IeC {\'o}n}{6}{subsection.2.1.1}
+\contentsline {subsubsection}{Paso de Ejemplo}{6}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Informaci\IeC {\'o}n general de Iniciar sesi\IeC {\'o}n}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Informaci\IeC {\'o}n del solicitante}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Informaci\IeC {\'o}n del administrador del Departamento de Apoyo T\IeC {\'e}cnico}{7}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Informaci\IeC {\'o}n del encargado del Departamento de Apoyo T\IeC {\'e}cnico}{7}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Paso 2 de Iniciar sesi\IeC {\'o}n. Mostrar bienvenida}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Subpaso 2-A de Iniciar sesi\IeC {\'o}n de solicitante}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Subpaso 2-B de Iniciar sesi\IeC {\'o}n}{7}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Proceso Registrar p\IeC {\'r}estamo de sala v\IeC {\'\i }a web}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Paso 1 de Registrar pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web. Iniciar reservaci\IeC {\'o}n}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Subpaso 1-A: Iniciar registro de pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web sin encuestas pendientes}{9}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Subpaso 1-B: Iniciar registro de pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web con encuestas pendientes}{9}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Paso 2 de Registrar pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web. Seleccionar fecha de la reservaci\IeC {\'o}n}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Subpaso 2-A: Seleccionar d\IeC {\'\i }a de la reservaci\IeC {\'o}n}{10}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Paso 3 de Registrar pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web. Confirmar reservaci\IeC {\'o}n}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Subpaso 3-A: Confirmar reservaci\IeC {\'o}n}{10}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Proceso Sancionar solicitante}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Paso 1 Sancionar solicitante. Inciar sanci\IeC {\'o}n}{11}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Subpaso 1-A: Iniciar sancion para el solicitante}{11}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Paso 2 Sancionar solicitante. Ingresar sanci\IeC {\'o}n}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Subpaso 2-A: Ingresar sanci\IeC {\'o}n para el solicitante}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Subpaso 2-B: Los datos no han sido llenados correctamente}{12}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}Proceso Actualizar informaci\IeC {\'o}n de usuario}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Paso 1 de Actualizar informaci\IeC {\'o}n de usuario. Iniciar actualizaci\IeC {\'o}n}{13}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Subpaso 1-A: Iniciar actualizaci\IeC {\'o}n de informaci\IeC {\'o}n de usuario}{13}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Paso 2 de Actualizar informaci\IeC {\'o}n de usuario. Modificar informaci\IeC {\'o}n}{13}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Subpaso 2-A: Modificar informaci\IeC {\'o}n: n\IeC {\'u}mero telef\IeC {\'o}nico y correo electr\IeC {\'o}nico}{13}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Subpaso 2-B: Cambiar contrase\IeC {\~n}a}{13}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Paso 3 de Actualizar informaci\IeC {\'o}n de usuario. Confirmar informaci\IeC {\'o}n}{14}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Subpaso 3-A: Confirmar Informaci\IeC {\'o}n}{14}{subsection.5.3.1}
+\contentsline {chapter}{\numberline {6}Proceso Terminar p\IeC {\'r}estamo}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}Paso 1 de Terminar pr\IeC {\'e}stamo. Dar por terminado un pr\IeC {\'e}stamo en curso}{15}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Subpaso 1-A: Terminar pr\IeC {\'e}stamo}{15}{subsection.6.1.1}
+\contentsline {chapter}{\numberline {7}Proceso Buscar Pr\IeC {\'e}stamo}{16}{chapter.7}
+\contentsline {section}{\numberline {7.1}Paso 1 de Registrar pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web. Iniciar reservaci\IeC {\'o}n}{16}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Subpaso 1-A: Iniciar registro de pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web sin encuestas pendientes}{16}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Subpaso 1-B: Iniciar registro de pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web con encuestas pendientes}{16}{subsection.7.1.2}
+\contentsline {chapter}{\numberline {8}Proceso de Registrar a un usuario}{18}{chapter.8}
+\contentsline {section}{\numberline {8.1}Paso 1 de Registrar a un usuario}{18}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Subpaso 1-A: Iniciar registro de un usuario}{18}{subsection.8.1.1}
+\contentsline {section}{\numberline {8.2}Paso 2 Agregar datos del Usuario}{18}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Subpaso 2-A: Ingresar datos del usuario}{18}{subsection.8.2.1}
+\contentsline {chapter}{\numberline {9}Proceso Cancelar p\IeC {\'r}estamo}{20}{chapter.9}
+\contentsline {section}{\numberline {9.1}Paso 1 de Cancelar pr\IeC {\'e}stamo. Cancelar un pr\IeC {\'e}stamo previamente solicitado}{20}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Subpaso 1-A: Cancelar pr\IeC {\'e}stamo}{20}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Subpaso 2-A: Confirmar Cancelaci\IeC {\'o}n}{20}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Subpaso 2-B: Conservar Reservaci\IeC {\'o}n}{20}{subsection.9.1.3}
+\contentsline {chapter}{\numberline {10}Proceso Cancelar p\IeC {\'r}estamo}{21}{chapter.10}
+\contentsline {section}{\numberline {10.1}Paso 1 de Cancelar pr\IeC {\'e}stamo. Cancelar un pr\IeC {\'e}stamo previamente solicitado}{21}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Subpaso 1-A: Cancelar pr\IeC {\'e}stamo}{21}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Subpaso 2-A: Confirmar Cancelaci\IeC {\'o}n}{21}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Subpaso 2-B: Conservar Reservaci\IeC {\'o}n}{21}{subsection.10.1.3}
+\contentsline {chapter}{\numberline {11}Proceso Contestar encuesta}{22}{chapter.11}
+\contentsline {section}{\numberline {11.1}Paso 1 de Contestar encuesta. Consultar si existen encuestas pendientes}{22}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Subpaso 1-A: Consultar Encuesta}{22}{subsection.11.1.1}
+\contentsline {section}{\numberline {11.2}Paso 2 de Contestar encuesta. Contestar encuesta sobre el servicio de pr\IeC {\'e}stamos}{22}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Subpaso 1-A: Contestar preguntas de la encuesta de calidad}{22}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}ER-01: Cancelar env\IeC {\'\i }o de las respuestas de la encuesta}{23}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}ER-02: Dejar campos incompletos}{23}{subsection.11.2.3}

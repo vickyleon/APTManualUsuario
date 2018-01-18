@@ -1,0 +1,71 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Uso General Del Sistema}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Entorno De Trabajo}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Dise\IeC {\~n}o}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Iconograf\IeC {\'\i }a}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Organizaci\IeC {\'o}n}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Componentes Utilizados}{4}{subsection.1.1.4}
+\contentsline {subsubsection}{Componente de Ejemplo}{4}{section*.2}
+\contentsline {chapter}{\numberline {2}Proceso Iniciar Sesi\IeC {\'o}n}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Paso 1. Iniciar sesi\IeC {\'o}n}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Subpaso 1-A: Ingresar credenciales}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Error E1-A: usuario no registrado}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Error E1-B: contrase\IeC {\~n}a equivocada}{5}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Bienvenida del encargado del Departamento de Apoyo T\IeC {\'e}cnico}{5}{subsection.2.1.4}
+\contentsline {chapter}{\numberline {3}Proceso Terminar p\IeC {\'r}estamo}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Paso 1 de Terminar pr\IeC {\'e}stamo. Dar por terminado un pr\IeC {\'e}stamo en curso}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Subpaso 1-A: Terminar pr\IeC {\'e}stamo}{7}{subsection.3.1.1}
+\contentsline {chapter}{\numberline {4}Proceso Sancionar solicitante}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Paso 1 Sancionar solicitante. Inciar sanci\IeC {\'o}n}{8}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Subpaso 1-A: Iniciar sanci\IeC {\'o}n para el solicitante}{8}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Paso 2 Sancionar solicitante. Ingresar sanci\IeC {\'o}n}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Subpaso 2-A: Ingresar sanci\IeC {\'o}n para el solicitante}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Subpaso 2-B: ER01. Los datos no han sido llenados correctamente}{10}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}Proceso Buscar Pr\IeC {\'e}stamo}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Paso 1 de Registrar pr\IeC {\'e}stamo de sala v\IeC {\'\i }a web. Iniciar reservaci\IeC {\'o}n}{11}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Subpaso 1-A: Iniciar b\IeC {\'u}squeda por medio de ID}{11}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Subpaso 1-B: Iniciar b\IeC {\'u}squeda por medio de fecha}{12}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {6}Proceso de Registrar a un usuario}{14}{chapter.6}
+\contentsline {section}{\numberline {6.1}Paso 1 de Registrar a un usuario}{14}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Subpaso 1-A: Iniciar registro de un usuario}{14}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Paso 2 Agregar datos del Usuario}{14}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Subpaso 2-A: Ingresar datos del usuario}{14}{subsection.6.2.1}
+\contentsline {chapter}{\numberline {7}Proceso Cerrar sesi\IeC {\'o}n}{16}{chapter.7}
+\contentsline {section}{\numberline {7.1}Paso 1 de Cerrar sesi\IeC {\'o}n. Localizar bot\IeC {\'o}n}{16}{section.7.1}
+\contentsline {chapter}{\numberline {8}Proceso Extender el tiempo de pr\IeC {\'e}stamo de una sala}{17}{chapter.8}
+\contentsline {section}{\numberline {8.1}Paso 1. Buscar tarjeta de pr\IeC {\'e}stamo}{17}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Subpaso 1-A: pantalla de bienvenida}{17}{subsection.8.1.1}
+\contentsline {section}{\numberline {8.2}Paso 2. Ingresar tiempo adicional al pr\IeC {\'e}stamo}{17}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Subpaso 2-A: Ingresar el tiempo adicional al pr\IeC {\'e}stamo}{17}{subsection.8.2.1}
+\contentsline {chapter}{\numberline {9}Proceso Consultar Estad\IeC {\'\i }sticas }{18}{chapter.9}
+\contentsline {section}{\numberline {9.1}Por mes.}{18}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Subpaso 1-A: Iniciar estad\IeC {\'\i }sticas por mes}{18}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Subpaso 1-B: Muestra de Estad\IeC {\'\i }sticas}{20}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Por a\IeC {\~n}os}{20}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Subpaso 1-A: Iniciar estad\IeC {\'\i }sticas por a\IeC {\~n}os}{20}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Subpaso 1-B: Muestra de Estad\IeC {\'\i }sticas}{20}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Por todos los a\IeC {\~n}os}{20}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Subpaso 1-A: Iniciar estad\IeC {\'\i }sticas por a\IeC {\~n}os}{20}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Subpaso 1-B: Muestra de Estad\IeC {\'\i }sticas}{20}{subsection.9.3.2}
+\contentsline {chapter}{\numberline {10}Proceso Cancelar p\IeC {\'r}estamo}{32}{chapter.10}
+\contentsline {section}{\numberline {10.1}Paso 1 de Cancelar pr\IeC {\'e}stamo. Cancelar un pr\IeC {\'e}stamo previamente solicitado}{32}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Subpaso 1-A: Cancelar pr\IeC {\'e}stamo}{32}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Subpaso 2-A: Confirmar Cancelaci\IeC {\'o}n}{32}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Subpaso 2-B: Conservar Reservaci\IeC {\'o}n}{32}{subsection.10.1.3}
+\contentsline {chapter}{\numberline {11}Proceso Buscar un Usuario}{33}{chapter.11}
+\contentsline {section}{\numberline {11.1}Paso 1.Bienvenida}{33}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Bienvenida}{33}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Pantalla Gestionar usuario}{33}{subsection.11.1.2}
+\contentsline {section}{\numberline {11.2}Paso 2. Gestionar Usuario}{33}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Subpaso 1-A: Buscar }{33}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Error E1-A: usuario no encontrado}{36}{subsection.11.2.2}
+\contentsline {section}{\numberline {11.3}Paso 3. Resultado}{36}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}Subpaso 2-A: Solicitante}{36}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Subpaso 2-B: Encargado o Administrador}{36}{subsection.11.3.2}
+\contentsline {chapter}{\numberline {12}Proceso Contestar encuesta}{38}{chapter.12}
+\contentsline {section}{\numberline {12.1}Paso 1 de Contestar encuesta. Consultar si existen encuestas pendientes}{38}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Subpaso 1-A: Consultar Encuesta}{38}{subsection.12.1.1}
+\contentsline {section}{\numberline {12.2}Paso 2 de Contestar encuesta. Contestar encuesta sobre el servicio de pr\IeC {\'e}stamos}{38}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Subpaso 1-A: Contestar preguntas de la encuesta de calidad}{38}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}ER-01: Cancelar env\IeC {\'\i }o de las respuestas de la encuesta}{39}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}ER-02: Dejar campos incompletos}{39}{subsection.12.2.3}

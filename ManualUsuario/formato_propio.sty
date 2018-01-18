@@ -1,0 +1,37 @@
+\ProvidesPackage{formato_propio}[2017/12/12, Ricardo Quezada Ajustes en entregables]
+
+\usepackage{pdflscape}          % Páginas horizontales
+\usepackage[]{hyperref}         % Opciones del pdf producto
+\usepackage{bookmark}           % Opciones del pdf producto
+
+
+% Cambios en las traducciones
+\addto\captionsspanish {
+  \renewcommand*\contentsname{Contenido}
+  \renewcommand*\listfigurename{Lista de figuras}
+}
+
+\newcommand{\Subtitulo}{Biblioteca Nacional de Ciencia y Tecnología}
+\newcommand{\Autor}{Grupo 3CM2}
+\newcommand{\Organizacion}{Escuela Superior de Cómputo, Instituto Politécnico Nacional}
+
+\title{\Titulo{}}
+\subtitle{\Subtitulo{}}
+\author{\Autor{}}
+\organization{\Organizacion{}}
+
+% Configuración de PDF
+\hypersetup{
+  pdftitle={\Titulo{}},         % Título
+  pdfauthor={\Autor{}},         % Autor
+  pdfsubject={\Subtitulo{}},    % Subtítulo
+  bookmarksnumbered=true,       % Numeración de marcadores
+  bookmarksopen=true,           % Marcadores anidados
+  bookmarksopenlevel=5,         % Profundidad de anidación
+  pdfstartview=Fit,             % Vista inicial
+  pdfpagemode=UseOutlines,      % Modo de página
+  colorlinks,                   % Modificar color por default
+  linkcolor={black!255!black},  % Color de vínculos
+  citecolor={black!50!black},   % Color de citas
+  urlcolor={black!80!black}     % Color de URLs
+}

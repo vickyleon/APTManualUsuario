@@ -1,0 +1,14 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Uso General Del Sistema}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Entorno De Trabajo}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Dise\IeC {\~n}o}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Iconograf\IeC {\'\i }a}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Organizaci\IeC {\'o}n}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Componentes Utilizados}{3}{subsection.1.1.4}
+\contentsline {subsubsection}{Componente de Ejemplo}{3}{section*.2}
+\contentsline {chapter}{\numberline {2}Proceso Iniciar Sesi\IeC {\'o}n}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Paso 1. Iniciar sesi\IeC {\'o}n}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Subpaso 1-A: Ingresar credenciales}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Error E1-A: usuario no registrado}{7}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Error E1-B: contrase\IeC {\~n}a equivocada}{7}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Bienvenida del administrador de 4MAT}{7}{subsection.2.1.4}

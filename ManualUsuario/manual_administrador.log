@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.5)  19 JAN 2018 02:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.5)  19 JAN 2018 03:40
 entering extended mode
 **./manual_administrador.tex
 (manual_administrador.tex
@@ -1122,7 +1122,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
 (workEnvironment/administrador/design.tex
-<images/design/inicio_Admin.png, id=40, 963.6pt x 542.025pt>
+<images/design/inicio_Admin.png, id=54, 963.6pt x 542.025pt>
 File: images/design/inicio_Admin.png Graphic file (type png)
 
 <use images/design/inicio_Admin.png>
@@ -1155,28 +1155,28 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 5.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\ts1futs.fd"
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
-<images/icons/example.png, id=41, 17.31468pt x 15.80907pt>
+<images/icons/example.png, id=55, 17.31468pt x 15.80907pt>
 File: images/icons/example.png Graphic file (type png)
 
 <use images/icons/example.png>
 Package pdftex.def Info: images/icons/example.png used on input line 5.
 (pdftex.def)             Requested size: 25.19095pt x 23.0pt.
 
-<images/icons/cancelar.png, id=43, 42.91031pt x 50.43843pt>
+<images/icons/cancelar.png, id=57, 42.91031pt x 50.43843pt>
 File: images/icons/cancelar.png Graphic file (type png)
 
 <use images/icons/cancelar.png>
 Package pdftex.def Info: images/icons/cancelar.png used on input line 6.
 (pdftex.def)             Requested size: 42.91019pt x 50.4383pt.
 
-<images/icons/confirmar.png, id=44, 49.68562pt x 48.18pt>
+<images/icons/confirmar.png, id=58, 49.68562pt x 48.18pt>
 File: images/icons/confirmar.png Graphic file (type png)
 
 <use images/icons/confirmar.png>
 Package pdftex.def Info: images/icons/confirmar.png used on input line 7.
 (pdftex.def)             Requested size: 49.6855pt x 48.17986pt.
 
-<images/icons/consultar.png, id=45, 48.93282pt x 47.42719pt>
+<images/icons/consultar.png, id=59, 48.93282pt x 47.42719pt>
 File: images/icons/consultar.png Graphic file (type png)
 
 <use images/icons/consultar.png>
@@ -1216,21 +1216,21 @@ l.9 	\item \ICUnlockA
 
  <./images/icons/example.png> <./images/icons/cancelar.png> <./images/icons/con
 firmar.png>]
-<images/icons/desbloquear_1.png, id=53, 50.43843pt x 50.43843pt>
+<images/icons/desbloquear_1.png, id=67, 50.43843pt x 50.43843pt>
 File: images/icons/desbloquear_1.png Graphic file (type png)
 
 <use images/icons/desbloquear_1.png>
 Package pdftex.def Info: images/icons/desbloquear_1.png used on input line 9.
 (pdftex.def)             Requested size: 50.4383pt x 50.4383pt.
 
-<images/icons/email.png, id=54, 49.68562pt x 43.66313pt>
+<images/icons/email.png, id=68, 49.68562pt x 43.66313pt>
 File: images/icons/email.png Graphic file (type png)
 
 <use images/icons/email.png>
 Package pdftex.def Info: images/icons/email.png used on input line 10.
 (pdftex.def)             Requested size: 49.6855pt x 43.66301pt.
 
-<images/icons/gestionarPrestamo.png, id=55, 50.43843pt x 48.18pt>
+<images/icons/gestionarPrestamo.png, id=69, 50.43843pt x 48.18pt>
 File: images/icons/gestionarPrestamo.png Graphic file (type png)
 
 <use images/icons/gestionarPrestamo.png>
@@ -1238,7 +1238,7 @@ Package pdftex.def Info: images/icons/gestionarPrestamo.png used on input line
 11.
 (pdftex.def)             Requested size: 50.4383pt x 48.17986pt.
 
-<images/icons/gestionarRecurso.png, id=56, 46.67438pt x 54.2025pt>
+<images/icons/gestionarRecurso.png, id=70, 46.67438pt x 54.2025pt>
 File: images/icons/gestionarRecurso.png Graphic file (type png)
 
 <use images/icons/gestionarRecurso.png>
@@ -1246,42 +1246,42 @@ Package pdftex.def Info: images/icons/gestionarRecurso.png used on input line 1
 2.
 (pdftex.def)             Requested size: 46.67424pt x 54.20236pt.
 
-<images/icons/hora.png, id=57, 48.18pt x 45.16875pt>
+<images/icons/hora.png, id=71, 48.18pt x 45.16875pt>
 File: images/icons/hora.png Graphic file (type png)
 
 <use images/icons/hora.png>
 Package pdftex.def Info: images/icons/hora.png used on input line 13.
 (pdftex.def)             Requested size: 48.17986pt x 45.16862pt.
 
-<images/icons/inicio.png, id=58, 50.43843pt x 48.18pt>
+<images/icons/inicio.png, id=72, 50.43843pt x 48.18pt>
 File: images/icons/inicio.png Graphic file (type png)
 
 <use images/icons/inicio.png>
 Package pdftex.def Info: images/icons/inicio.png used on input line 14.
 (pdftex.def)             Requested size: 50.4383pt x 48.17986pt.
 
-<images/icons/nombre.png, id=59, 48.93282pt x 47.42719pt>
+<images/icons/nombre.png, id=73, 48.93282pt x 47.42719pt>
 File: images/icons/nombre.png Graphic file (type png)
 
 <use images/icons/nombre.png>
 Package pdftex.def Info: images/icons/nombre.png used on input line 15.
 (pdftex.def)             Requested size: 48.93268pt x 47.42706pt.
 
-<images/icons/pass.png, id=60, 45.16875pt x 53.44969pt>
+<images/icons/pass.png, id=74, 45.16875pt x 53.44969pt>
 File: images/icons/pass.png Graphic file (type png)
 
 <use images/icons/pass.png>
 Package pdftex.def Info: images/icons/pass.png used on input line 16.
 (pdftex.def)             Requested size: 45.16862pt x 53.44954pt.
 
-<images/icons/reservar.png, id=61, 48.18pt x 47.42719pt>
+<images/icons/reservar.png, id=75, 48.18pt x 47.42719pt>
 File: images/icons/reservar.png Graphic file (type png)
 
 <use images/icons/reservar.png>
 Package pdftex.def Info: images/icons/reservar.png used on input line 17.
 (pdftex.def)             Requested size: 48.17986pt x 47.42706pt.
 
-<images/icons/salaDeEstudio.png, id=62, 48.93282pt x 51.19125pt>
+<images/icons/salaDeEstudio.png, id=76, 48.93282pt x 51.19125pt>
 File: images/icons/salaDeEstudio.png Graphic file (type png)
 
 <use images/icons/salaDeEstudio.png>
@@ -1315,28 +1315,28 @@ Package babel Info: Redefining spanish shorthand "?
 /icons/email.png> <./images/icons/gestionarPrestamo.png> <./images/icons/gestio
 narRecurso.png> <./images/icons/hora.png> <./images/icons/inicio.png> <./images
 /icons/nombre.png> <./images/icons/pass.png> <./images/icons/reservar.png>]
-<images/icons/salaDeExpo.png, id=80, 45.16875pt x 49.68562pt>
+<images/icons/salaDeExpo.png, id=94, 45.16875pt x 49.68562pt>
 File: images/icons/salaDeExpo.png Graphic file (type png)
 
 <use images/icons/salaDeExpo.png>
 Package pdftex.def Info: images/icons/salaDeExpo.png used on input line 19.
 (pdftex.def)             Requested size: 45.16862pt x 49.6855pt.
 
-<images/icons/salaDeTrabajo.png, id=81, 49.68562pt x 35.38219pt>
+<images/icons/salaDeTrabajo.png, id=95, 49.68562pt x 35.38219pt>
 File: images/icons/salaDeTrabajo.png Graphic file (type png)
 
 <use images/icons/salaDeTrabajo.png>
 Package pdftex.def Info: images/icons/salaDeTrabajo.png used on input line 20.
 (pdftex.def)             Requested size: 49.6855pt x 35.3821pt.
 
-<images/icons/salir.png, id=82, 47.42719pt x 49.68562pt>
+<images/icons/salir.png, id=96, 47.42719pt x 49.68562pt>
 File: images/icons/salir.png Graphic file (type png)
 
 <use images/icons/salir.png>
 Package pdftex.def Info: images/icons/salir.png used on input line 21.
 (pdftex.def)             Requested size: 47.42706pt x 49.6855pt.
 
-<images/icons/usuario.png, id=83, 50.43843pt x 45.92157pt>
+<images/icons/usuario.png, id=97, 50.43843pt x 45.92157pt>
 File: images/icons/usuario.png Graphic file (type png)
 
 <use images/icons/usuario.png>
@@ -1370,14 +1370,14 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 29.
 
 (workEnvironment/components.tex
-<images/components/example.png, id=84, 463.7325pt x 246.1697pt>
+<images/components/example.png, id=98, 463.7325pt x 246.1697pt>
 File: images/components/example.png Graphic file (type png)
 
 <use images/components/example.png>
 Package pdftex.def Info: images/components/example.png used on input line 3.
 (pdftex.def)             Requested size: 370.9865pt x 196.936pt.
 ) (PRATS/00_pantallaPrincipal.tex
-<images/Interfaz/IUGS00_pantallaprincipal.png, id=85, 1371.1225pt x 979.66pt>
+<images/Interfaz/IUGS00_pantallaprincipal.png, id=99, 1371.1225pt x 979.66pt>
 File: images/Interfaz/IUGS00_pantallaprincipal.png Graphic file (type png)
 
 <use images/Interfaz/IUGS00_pantallaprincipal.png>
@@ -1478,7 +1478,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
-<images/Interfaz/IUGS00_login.png, id=119, 567.62062pt x 260.47313pt>
+<images/Interfaz/IUGS00_login.png, id=133, 567.62062pt x 260.47313pt>
 File: images/Interfaz/IUGS00_login.png Graphic file (type png)
 
 <use images/Interfaz/IUGS00_login.png>
@@ -1576,7 +1576,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
 
-<images/Interfaz/IUGS01_binevenida.png, id=126, 1371.1225pt x 1291.82625pt>
+<images/Interfaz/IUGS01_binevenida.png, id=140, 1371.1225pt x 1291.82625pt>
 File: images/Interfaz/IUGS01_binevenida.png Graphic file (type png)
 
 <use images/Interfaz/IUGS01_binevenida.png>
@@ -1584,7 +1584,7 @@ Package pdftex.def Info: images/Interfaz/IUGS01_binevenida.png used on input li
 ne 6.
 (pdftex.def)             Requested size: 411.33992pt x 387.55087pt.
 
-<images/Interfaz/IUGS01_menu.png, id=127, 590.95781pt x 65.49469pt>
+<images/Interfaz/IUGS01_menu.png, id=141, 590.95781pt x 65.49469pt>
 File: images/Interfaz/IUGS01_menu.png Graphic file (type png)
 
 <use images/Interfaz/IUGS01_menu.png>
@@ -1592,7 +1592,7 @@ Package pdftex.def Info: images/Interfaz/IUGS01_menu.png used on input line 15.
 
 (pdftex.def)             Requested size: 354.57741pt x 39.29709pt.
 
-<images/Interfaz/IUGS01_menuadmin.png, id=128, 351.56343pt x 42.1575pt>
+<images/Interfaz/IUGS01_menuadmin.png, id=142, 351.56343pt x 42.1575pt>
 File: images/Interfaz/IUGS01_menuadmin.png Graphic file (type png)
 
 <use images/Interfaz/IUGS01_menuadmin.png>
@@ -1600,7 +1600,7 @@ Package pdftex.def Info: images/Interfaz/IUGS01_menuadmin.png used on input lin
 e 21.
 (pdftex.def)             Requested size: 210.93968pt x 25.29468pt.
 
-<images/Interfaz/IUGS01_video.png, id=129, 484.81125pt x 246.9225pt>
+<images/Interfaz/IUGS01_video.png, id=143, 484.81125pt x 246.9225pt>
 File: images/Interfaz/IUGS01_video.png Graphic file (type png)
 
 <use images/Interfaz/IUGS01_video.png>
@@ -1608,7 +1608,7 @@ Package pdftex.def Info: images/Interfaz/IUGS01_video.png used on input line 28
 .
 (pdftex.def)             Requested size: 290.88899pt x 148.15462pt.
 
-<images/Interfaz/IUGS01_botonadmin.png, id=130, 130.23656pt x 35.38219pt>
+<images/Interfaz/IUGS01_botonadmin.png, id=144, 130.23656pt x 35.38219pt>
 File: images/Interfaz/IUGS01_botonadmin.png Graphic file (type png)
 
 <use images/Interfaz/IUGS01_botonadmin.png>
@@ -1616,7 +1616,7 @@ Package pdftex.def Info: images/Interfaz/IUGS01_botonadmin.png used on input li
 ne 34.
 (pdftex.def)             Requested size: 78.14253pt x 21.22946pt.
 
-<images/Interfaz/IUGS01_botoncuestionario.png, id=131, 185.94469pt x 33.87656pt
+<images/Interfaz/IUGS01_botoncuestionario.png, id=145, 185.94469pt x 33.87656pt
 >
 File: images/Interfaz/IUGS01_botoncuestionario.png Graphic file (type png)
  <use images/Interfaz/IUGS01_botoncuestionario.png>
@@ -1728,14 +1728,156 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
 (PRATS/10_cerrarSesion/administrador/03_buscarBoton.tex
-<images/Interfaz/IUGS10_logout.png, id=158, 354.57469pt x 47.42719pt>
+<images/Interfaz/IUGS10_logout.png, id=173, 354.57469pt x 47.42719pt>
 File: images/Interfaz/IUGS10_logout.png Graphic file (type png)
 
 <use images/Interfaz/IUGS10_logout.png>
 Package pdftex.def Info: images/Interfaz/IUGS10_logout.png used on input line 9
 .
-(pdftex.def)             Requested size: 106.37321pt x 14.22826pt.
-))) 
+(pdftex.def)             Requested size: 248.20059pt x 33.19879pt.
+))
+(PRATS/11_registrarUsuario/01_indice.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+ [10
+
+ <./images/Interfaz/IUGS10_logout.png>]
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+(PRATS/11_registrarUsuario/02_iniciarRegistro.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+<images/Interfaz/IUGS11_botonEncuesta.png, id=181, 579.66562pt x 75.28125pt>
+File: images/Interfaz/IUGS11_botonEncuesta.png Graphic file (type png)
+
+<use images/Interfaz/IUGS11_botonEncuesta.png>
+Package pdftex.def Info: images/Interfaz/IUGS11_botonEncuesta.png used on input
+ line 7.
+(pdftex.def)             Requested size: 405.76317pt x 52.6965pt.
+File: images/Interfaz/IUGS00_login.png Graphic file (type png)
+
+<use images/Interfaz/IUGS00_login.png>
+Package pdftex.def Info: images/Interfaz/IUGS00_login.png used on input line 14
+.
+(pdftex.def)             Requested size: 397.33171pt x 182.32994pt.
+)
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 8.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 8.
+
+(PRATS/11_registrarUsuario/03_ingresarDatos.tex
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1.
+
+<images/Interfaz/IUGS11_registrarUsusario.png, id=182, 1371.1225pt x 1560.83125
+pt>
+File: images/Interfaz/IUGS11_registrarUsusario.png Graphic file (type png)
+ <use images/Interfaz/IUGS11_registrarUsusario.png>
+Package pdftex.def Info: images/Interfaz/IUGS11_registrarUsusario.png used on i
+nput line 5.
+(pdftex.def)             Requested size: 411.33992pt x 468.25299pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 19.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 19.
+ [11
+
+ <./images/Interfaz/IUGS11_botonEncuesta.png>]))) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
@@ -1761,9 +1903,32 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
-[10
-
- <./images/Interfaz/IUGS10_logout.png>]
+[12]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 38.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 38.
+ [13 <./images/Interfaz/IUGS11_registrarUsusario.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand >>
@@ -1778,26 +1943,23 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
- (manual_administrador.aux
+
+(manual_administrador.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 38.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 9425 strings out of 493634
- 136170 string characters out of 3136464
- 230352 words of memory out of 3000000
- 12507 multiletter control sequences out of 15000+200000
+ 9474 strings out of 493634
+ 137162 string characters out of 3136464
+ 230356 words of memory out of 3000000
+ 12520 multiletter control sequences out of 15000+200000
  97484 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 39i,11n,52p,366b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,52p,366b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/HP/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.en
 c} <C:\Users\HP\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecs
 s2488.pk> <C:\Users\HP\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
@@ -1805,9 +1967,9 @@ s2488.pk> <C:\Users\HP\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
 e/utopia/putb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 adobe/utopia/putr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/adobe/utopia/putri8a.pfb>
-Output written on manual_administrador.pdf (12 pages, 1451526 bytes).
+Output written on manual_administrador.pdf (15 pages, 1621853 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

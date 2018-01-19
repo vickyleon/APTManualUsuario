@@ -14,3 +14,8 @@
 \contentsline {subsection}{\numberline {2.1.4}Bienvenida del administrador de 4MAT}{7}{subsection.2.1.4}
 \contentsline {chapter}{\numberline {3}Proceso Cerrar sesi\IeC {\'o}n}{10}{chapter.3}
 \contentsline {section}{\numberline {3.1}Paso 1 de Cerrar sesi\IeC {\'o}n. Localizar bot\IeC {\'o}n}{10}{section.3.1}
+\contentsline {chapter}{\numberline {4}Proceso de Registrar a un usuario}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Paso 1 de Registrar a un usuario}{11}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Subpaso 1-A: Iniciar registro de un usuario}{11}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Paso 2 Agregar datos del Usuario}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Subpaso 2-A: Ingresar datos del usuario}{11}{subsection.4.2.1}

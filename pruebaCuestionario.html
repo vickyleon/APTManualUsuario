@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">        	
+		<link rel="shortcut icon" href="images/atom.ico" />
+        <script type="text/javascript" src="js/validaciones.js"></script>
+
+		<title>Grupo de investigación en la enseñanza de física</title>
+	</head>
+
+	<body>
+    	<header>
+			<h1>Grupo de investigación en la enseñanza de física [h1]</h1>                            
+            <nav>
+                <ul>
+                	<!------PONER ID ACTUAL AL QUE ESTES EDITANDO---------------->
+                    <li ><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Directorio</a></li>
+                    <li><a href="#">Documentos</a></li>
+                    <li id='actual'><a href="4mat.html">4MAT</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>        	
+        </header> 
+        <div id='banner'>
+	        <header class="dosColumnas">
+            	<!--Aquí va el titulo de la pagina que aparece al lado del logo-->
+    	    	<h2>Sistema 4MAT [h2]</h2> 
+                <!--------------------------------------------------------------->
+        	   	<img src="images/4matlogo.png" alt="logo">
+	        </header>
+        </div>
+        <div id='menuLogueado'>
+        	<nav id='menu2'>
+            	<p id='nombreUsuario'>Bienvenido Luis Erik Reyes Romero</p>
+                <ul>
+                	<!------PONER ID ACTUAL AL QUE ESTES EDITANDO---------------->
+                    <li><a href="#">Responder cuestionario</a></li>
+                    <li><a href="#">Resultado</a></li>
+                    <li><a href="#">Cerrar sesión</a></li>
+                </ul>
+            </nav>     
+        </div>
+        <div class="contenido">
+			<article>            	
+            	<h4>Cuestionario de Estilo de Aprendizaje</h4>
+				<p> <strong>Instrucciones:</strong> Las siguientes preguntas están diseñadas para detectar preferencias referentes a su estilo de aprendizaje. Al aprender ¿Cuál opción lo describiría mejor? Usando 4, 3, 2 y 1. Coloque 4 en la opción que mejor lo describa y 1 en la que menos lo describa. Entonces coloque las opciones 2 y 3 en los espacios restantes. Debe colocar los cuatro números. No repita ó iguale opciones.</p>                
+            </article>
+            <article>
+            	<div class="dosColumnas">
+            	<form name="formCuestionario" action="#" method="post">
+                <!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>1.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="tomo decisiones realistas">tomo decisiones realistas</label>
+                            <select id="1-1" onblur="validaSelect('1-1')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>                                
+                            </select>
+                            </li>
+                            <li>
+                            <label for="llego a conclusiones precisas">llego a conclusiones precisas</label>
+                            <select id="1-2" onblur="validaSelect('1-2')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option> 
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="descubro relaciones ocultas">descubro relaciones ocultas	</label>
+                            <select id="1-3" onblur="validaSelect('1-3')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option> 
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="entiendo los sentimientos de las personas">entiendo los sentimientos de las personas</label>
+                            <select id="1-4" onblur="validaSelect('1-4')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option> 
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>2.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="tomo decisiones realistas">tomo decisiones realistas</label>
+                            <select id="2-1" onblur="validaSelect('2-1')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>                                
+                            </select>
+                            </li>
+                            <li>
+                            <label for="llego a conclusiones precisas">llego a conclusiones precisas</label>
+                            <select id="2-2" onblur="validaSelect('2-2')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option> 
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="descubro relaciones ocultas">descubro relaciones ocultas	</label>
+                            <select id="2-3" onblur="validaSelect('2-3')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option> 
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="entiendo los sentimientos de las personas">entiendo los sentimientos de las personas</label>
+                            <select id="2-4" onblur="validaSelect('2-4')">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option> 
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>3.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>4.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>5.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>6.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>7.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>8.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>9.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>10.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>11.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>12.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>13.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>14.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                    <div class="pregunta">
+                        <p>15.- Soy excelente cuando...</p>
+                    </div>                    	
+                    <div  class="respuestas">
+                    	<ul>
+                            <li>
+                            <label for="state">tomo decisiones realistas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>
+                            <label for="state">llego a conclusiones precisas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">descubro relaciones ocultas	</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                            </li>
+                            <li>                       
+                            <label for="state">entiendo los sentimientos de las personas</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>  
+                            </li>                                                                                           
+					</div>
+<!--------------------------------------------------------------------------------------------------->
+                                                                                                                                                                                                                                                                                                                                                              
+	            </form>
+                </div>
+            </article>
+        </div>
+        <footer>
+    		<!--Aqui va el pie de pagina-->
+    	    <br><p>2015 © 4mat.tlamatiliztli.mx | All Rights Reserved | Desarrollado por: "Inserte nombres aquí"</p><br>
+	    </footer>          	 	
+	</body>
+</html>

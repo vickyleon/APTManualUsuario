@@ -1,0 +1,36 @@
+body{
+    background-image:url("imagenes/f6.jpg"); 
+
+	background-repeat: no-repeat;
+}
+
+span{
+        color: white;
+    font-size: xx-large;
+    display: none;
+}
+span#mispan{
+    color:  #033671 !important; 
+    font-size: xx-large;
+    text-align: center;
+    display: block;
+    line-height:1.5;
+    margin:1em 0;
+}
+img.descarga {
+    width: 61px;
+}
+
+.dropzone .dz-preview.dz-file-preview .dz-image{
+    border-radius: 20px;
+    background: #999;
+    background:  linear-gradient(to bottom, #0069f8, #033671) !important; 
+}
+.dropzone .dz-preview .dz-progress{
+    background: rgba(20, 247, 27, 0.0) !important;
+    -webkit-transform: scale(1);
+}
+div.dz-details span{
+    display: block;
+    font-size: small;
+}

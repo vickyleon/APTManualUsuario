@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+       	<title>.:: 4MAT::.</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">        	
+        
+
+		<link rel="shortcut icon" href="images/atom.ico" />
+        <script type="text/javascript" src="js/validaciones.js"></script>
+	</head>
+
+	<body>
+    	<header>
+			<h1>Grupo de investigación en la enseñanza de física</h1>                            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Directorio</a></li>
+                    <li><a href="#">Documentos</a></li>
+                    <li id='actual'><a href="4mat.html">4MAT</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>        	
+        </header> 
+        <div id='banner'>
+	        <header class="dosColumnas">
+    	    	<h2>Registro de usuario</h2>
+        	   	<img src="images/4matlogo.png" alt="logo">
+	        </header>
+        </div>
+        <div class="contenido">
+        	<article>
+            	<h3>Ingresa tus datos</h3>
+                <p>Estos se guardarán de manera confidencial, por lo cual se te invita a realizar un registro responsable llenando los campos con tus datos reales.</p>
+                <p>Revisalos bien antes de dar clic en el boton registrar, ya que una vez hecho no podras modificarlos.           		</p>
+                <form name="formUsuario" action="controlador/registro.php" method="post">
+                <table>
+                  <tr>
+                    <td width="50%" colspan="3"><h3>Datos generales:</h3></td>
+                    <td colspan="3">Email: <label for="txtEmail" id="labelEmail"><pre style='display:inline'>&#09;</pre></label></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" name="txtNombre" id="txtNombre" oninput="cnombre()" placeholder="Nombres (s)" required/></td>
+                    <td><input type="text" name="txtApPat" id="txtApPat" oninput="capPaterno()" placeholder="Ap. Paterno" required/></td>
+                    <td><input type="text" name="txtApMat" id="txtApMat" oninput="capMaterno()" placeholder="Ap. Materno" required/></td>
+                    <td width="16%" colspan="2"><input type="email" name="txtEmail" id="txtEmail" oninput="cemail()" placeholder="email" required/> </td>
+                    <td><input type="email" name="txtEmail2" id="txtEmail2" oninput="cemail()" placeholder="Confirmar email" required/></td>
+                  </tr>
+                  <tr>
+                    <td><label for="txtFechaNac" id="labelFN">Fecha de nacimiento:</label></td>
+                    <td colspan="2">Genero:</td>
+                    <td colspan="3">Password de 6 a 10 caracteres</td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" name="txtFechaNac" id="txtFechaNac" maxlength="10" oninput="cfecha()" required placeholder="yyyy-mm-dd" /></td>
+                    <td><label><input type="radio" name="genero" value="M" id="genero_0" />Masculino</label></td>
+                    <td><label><input type="radio" name="genero" value="F" id="genero_1" />Femenino</label></td>
+                    <td><input type="password" name="txtPwd" id="txtPwd"  oninput="pass()" minlength="6" maxlength="10" placeholder="password" required/></td>
+                    <td colspan="2"><label for="txtPwd" id="labelPass"><pre style='display:inline'>&#09;</pre></label></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><h3>Datos academicos</h3></td>
+                    <td><input type="password" name="txtPwd2" id="txtPwd2" oninput="pass()" min="6" maxlength="10" placeholder="Confirmar password" required/></td>
+                    <td colspan="2"><label for="txtPwd2" id="labelPassC" size="40"><pre style='display:inline'>&#09;</pre></label></td>
+                  </tr>
+                  <tr>
+                    <td>Ocupacion</td>
+                    <td colspan="2"><label for="txtInstitucion" id="labelInst">Institución (Ejemplo: ESCOM-IPN)</label></td>
+                    <td colspan="3" rowspan="2"><input type="submit" id="Registrar" value="Registrar" class='btn'/></td>
+                  </tr>
+                  <tr>
+                    <td><select name="txtOcupacion" id="txtOcupacion" required>
+                    		<option value="">Elija una opción ...</option>
+                    		<option value="Estudiante">Estudiante</option>
+                    		<option value="Egresado">Egresado</option>
+                    		<option value="Profesor">Profesor</option>
+                      	</select>
+                    </td>
+                    <td colspan="2"><input type="text" name="txtInstitucion" id="txtInstitucion" oninput="cinstitucion()" placeholder="Escuela-Institución" required/>
+                    </td>
+                  </tr>
+                </table>
+                
+				</form>
+                <div class="small-12 medium-9 medium-centered large-8 large-centered columns">
+                <form id="formDGNI">
+            	<fieldset>
+                   	<legend>Identidad:</legend>
+                    <label>N&uacute;m. de Referencia:
+                      	<input type="text" name="numReferencia" id="numReferencia">
+                   	</label>
+                    <label>Nombre:
+                       	<input type="text" name="nombre" id="nombre">
+                   	</label>
+                    <label>Apellido Paterno:
+                      	<input type="text" name="apePaterno" id="apePaterno">
+                   	</label>
+                    <label>Apellido Materno:
+                      	<input type="text" name="apeMaterno" id="apeMaterno">
+                   	</label>
+                    <label>Fecha de Nacimiento:
+                      	<input type="text" name="fechaNac" id="fechaNac">
+                   	</label>
+                    <label>Lugar de Nacimiento:
+                      	<select name="lugNacimiento" id="lugNacimiento">
+                        	<option value="">- Lugar de Nacimiento -</option>
+                            <option value='AGS'>Aguascalientes</option><option value='BCN'>Baja California Norte</option><option value='BCS'>Baja California Sur</option><option value='CAM'>Campeche</option><option value='CHI'>Chihuahua</option><option value='CHP'>Chiapas</option><option value='COA'>Coahuila</option><option value='COL'>Colima</option><option value='DF'>Distrito Federal</option><option value='DUR'>Durango</option><option value='GRO'>Guerrero</option><option value='GTO'>Guanajuato</option><option value='HGO'>Hidalgo</option><option value='JAL'>Jalisco</option><option value='MEX'>Mexico</option><option value='MIC'>Michoacan</option><option value='MOR'>Morelos</option><option value='NAY'>Nayarit</option><option value='NLE'>Nuevo Leon</option><option value='OAX'>Oaxaca</option><option value='OTR'>Otro</option><option value='PUE'>Puebla</option><option value='QRO'>Queretaro</option><option value='ROO'>Quintana Roo</option><option value='SIN'>Sinaloa</option><option value='SLP'>San Luis Potosi</option><option value='SON'>Sonora</option><option value='TAB'>Tabasco</option><option value='TLX'>Tlaxcala</option><option value='TMP'>Tamaulipas</option><option value='VER'>Veracruz</option><option value='YUC'>Yucatan</option><option value='ZAC'>Zacatecas</option>                       	</select>
+                   	</label>
+                    <label>G&eacute;nero:<br>
+                    	Femenino <input type="radio" name="genero" id="genero" value="F">
+                      	Masculino <input type="radio" name="genero" id="genero" value="M">
+                   	</label>
+                    <label>CURP:
+                      	<input type="text" name="curp" id="curp" maxlength="18">
+                   	</label>
+                </fieldset>
+            </div>                        
+        	</article>
+        </div>
+        <footer>
+    		<!--Aqui va el pie de pagina-->
+    	    <br><p>2015 © 4mat.tlamatiliztli.mx | All Rights Reserved | Desarrollado por: "Inserte nombres aquí"</p><br>
+	    </footer>          	 	
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+	<head>
+    	<?php require_once("controlador/verificar.php");
+        	  require_once("controlador/connection.php");
+         ?>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css">        	
+		<link rel="shortcut icon" href="../images/atom.ico" />
+        <script type="text/javascript" src="js/validaciones.js"></script>
+		<title>Grupo de investigación en la enseñanza de física</title>
+	</head>
+
+	<body>
+    	<header>
+			<h1>Grupo de investigación en la enseñanza de Física</h1>
+          <nav>
+                <ul>
+                	<!------PONER ID ACTUAL AL QUE ESTES EDITANDO---------------->
+                    <li ><a href="../index.php">Inicio</a></li>
+                    <li><a href="#">Directorio</a></li>
+                    <li><a href="#">Documentos</a></li>
+                    <li id='actual'><a href="../4mat.php">4MAT</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>        	
+        </header>
+    	<!-- TemplateBeginEditable name="encabezados" -->        
+        <div id='banner'>
+	        <header class="dosColumnas">
+            	<!--Aquí va el titulo de la pagina que aparece al lado del logo-->
+    	    	<h2>Sistema 4MAT [h2]</h2> 
+                <!--------------------------------------------------------------->
+        	   	<img src="../images/4matlogo.png" alt="logo">
+          </header>
+        </div>
+        <!-- TemplateEndEditable -->
+        <?php if($banderaSesion){ ?>
+        <div id='menuLogueado'>
+        	<div id='menu2'>
+            	<p id='nombreUsuario'>Bienvenido <?php echo $usuario->getNombre(); ?></p>
+                <ul>
+                	<!------PONER ID ACTUAL AL QUE ESTES EDITANDO---------------->
+                    <?php if($banderaEllos == false){ ?>
+                    <li><a href="administrador.php">Administración</a></li>
+                    <?php } 
+                    	$conexion = new connection();
+ 						$query="select * from cuestionario";
+						$conexion->conectar();
+						$conexion->myQuery($query);                    
+                    ?>
+                    <li><a href="#">Responder cuestionario</a>
+                    	<ul>
+                        	<?php
+                            	while($rs=$conexion->getArrayFila())//Si me regresa tuplas significa que existen cuestionarios
+								{
+									echo "<li><a href=\"cuestionario.php?id=".$rs['idCuestionario']."\">".$rs['nombre']."</a>";
+                            ?>
+                            
+                                <ul>
+                                    <li><a href="resultados.php?id=<?php echo $rs['idCuestionario'] ?>">Resultado</a></li>
+                                </ul>
+                            
+                            <?php echo "</li>"; } $conexion->desconectar();?>
+                        </ul>
+                    </li>
+                    <li><a href="#">Mi Perfil</a>
+                    	<ul>
+                        	 <li><a href="../modificar.php">Modificar datos personales</a></li>
+                        	 <li><a href="#">Modificar contraseña</a></li>                             
+                         	<li><a href="controlador/logout.php">Cerrar Sesión</a></li>
+                        </ul>
+                    </li>                   
+                </ul>
+            </div>     
+        </div>
+        <?php } ?>
+   	<!-- TemplateBeginEditable name="content" -->        
+        <div class="contenido">
+			<article>            	
+            	<h4>Acerca del cuestionario 4MAT [h4]</h4>
+                <img src="../images/bienvenida.jpg" alt="Bienvenido" class="derecha">
+				<p> La física es una de las ciencias que presentan una mayor dificultad en su comprensión por parte de los estudiantes, esta dificultad es evidente en el bajo índice de aprobación de esta disciplina en las escuelas en los diferentes niveles educativos en donde se imparte. Por otro lado, como se mencionó anteriormente, los profesionales encargados     de enseñar física en las escuelas difícilmente introducen metodologías novedosas en su práctica, tienen la tendencia de repetir la forma en la que fueron “instruidos” en la física, es decir, en forma convencional de transmisión recepción donde un experto da una clase magistral sin tener prácticamente interacción con los estudiantes. Estos dos aspectos, bajo índice de aprobación e instrucción tradicional, dan pie a cuestionar sobre la necesidad de incorporar elementos nuevos en la enseñanza de la física. <strong>Y bla bla bla. Preguntar que texto va aquí</strong></p>
+                <h3>Subtitulo [h3]</h3>
+                <p> La física es una de las ciencias que presentan una mayor dificultad en su comprensión por parte de los estudiantes, esta dificultad es evidente en el bajo índice de aprobación de esta disciplina en las escuelas en los diferentes niveles educativos en donde se imparte. Por otro lado, como se mencionó anteriormente, los profesionales encargados     de enseñar física en las escuelas difícilmente introducen metodologías novedosas en su práctica, tienen la tendencia de repetir la forma en la que fueron “instruidos” en la física, es decir, en forma convencional de transmisión recepción donde un experto da una clase magistral sin tener prácticamente interacción con los estudiantes. Estos dos aspectos, bajo índice de aprobación e instrucción tradicional, dan pie a cuestionar sobre la necesidad de incorporar elementos nuevos en la enseñanza de la física. <strong>Y bla bla bla. Preguntar que texto va aquí</strong></p>
+            </article>
+        </div>
+        <!-- TemplateEndEditable -->
+        <footer> 
+    		<!--Aqui va el pie de pagina-->
+    	    <br><p>2015 © physics-education.tlamatiliztli.mx | All Rights Reserved | Desarrollado por alumnos PIFI</p><br>
+	    </footer>          	 	
+	</body>
+</html>

@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+    margin: 0px;
+    padding: 0px;
+
+    font-size:14px;
+    text-align:justify;
+    color:#000;
+}
+/***********************************Para el ENCABEZADO******************************************/
+header
+{
+    border: solid transparent;	
+
+    margin: 0 auto;/*para centrarlo*/
+    text-align: center;
+    background-color: #ffff;
+    font-weight: bold;
+}
+
+a.titulo2{
+     margin:8px; 
+    color:black; 
+    font-size:23px;
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    a.titulo2{
+        display:inline;
+    }
+}
+@media screen and (max-width: 600px) {
+    a.titulo{
+        display:none;
+    }
+}
+h1
+{
+    width:300px;
+    color:#000;
+    font-size:23px;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+}
+
+nav ul li
+{
+
+    /*Para que ponga de manera horizontal*/
+    display:inline-block; 
+    /*Espacio a la derecha de cada uno*/
+    margin-right:0px;
+    /*Para que aparesca una manita*/
+    cursor:pointer;	
+    padding:20px;
+    color: #777777;
+
+}
+nav ul li:hover
+{
+    background-color:#EEEEEE;
+    border-radius:15px;
+
+}
+nav ul li a
+{
+    text-decoration:none;
+    color:#777777;
+}
+#actual
+{
+    background-color:#EEEEEE;
+    border-radius:15px;
+}
+/***********************************************************************************************/
+/*************************************Para el BANNER********************************************/
+#banner
+{
+    width:100%;
+    background-color: #0f7196;	
+}
+
+h2
+{
+    color:rgba(255,255,255,1);
+    font-size:32px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, sans-serif;
+
+}
+
+
+/***********************************************************************************************/
+#menuLogueado
+{
+    height: 49px;
+    width:100%;	
+    background-color:#00395b;
+
+}
+#nombreUsuario
+{	
+    width: 45%;
+    float: left;
+    color:#fff;
+    padding: 0px;
+
+}
+#menu2 
+{
+
+    float: right;
+    margin: 0 auto;
+    border:solid transparent;	
+    font-weight: bold;
+}
+#menu2 > ul >li
+{
+    display:inline-block;
+
+}
+#menu2 ul
+{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+#menu2 li a 
+{
+    
+    color:black;
+   
+}
+#menu2 li a:hover 
+{
+    color:#ffb903;
+}
+
+#menu2 li ul 
+{
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+#menu2 li:hover > ul {
+    display:block;
+
+}
+
+#menu2 li ul li {
+    position:relative;
+}
+
+#menu2 li ul li ul {
+    right:-140px;
+    top:15px;
+}
+/***********************************************************************************************/
+
+#tLogin{
+    background-color: #f44849;
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 25px;
+    padding: 15px;
+    color:#fec200;
+    font-weight:bold;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:14px;
+    box-shadow:0px 5px 10px rgba(0,0,0,1); 
+
+
+}
+#tLogin input{
+    color:black;
+}
+#headerLogin
+{
+    text-align: center;
+    font-size: 22px;
+    color:#fff;
+    font-style: ;
+    box-shadow:2px 2px 0px rgba(0,0,0,.3); 
+}
+#tLogin input
+{
+    width: 100%;
+    background-color:#faffbd; 
+}
+#tLogin td
+{
+    height: 20px;	
+}
+#tLogin a
+{
+    text-align: left;
+    color:#fff;
+}
+.dosColumnas{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding:0%;
+}
+.negro{
+    text-decoration-color: black;
+}
+
+.contenido{
+    margin: 0 auto;
+    border: solid transparent;
+
+    margin: 0px 5% 0 5%;
+
+}
+.imagen img{
+    width: 80%;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+article
+{
+
+
+    padding: 20px;
+}
+
+footer
+{
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    background-color:#424242;
+    color:#ffb903;
+    font-weight:bold;
+}
+.btn
+{
+    border-radius: 15px;
+    
+    font-size: 14px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color:#ffb903;
+    color: #424242;
+}
+table
+{
+    margin: 0 auto;
+    width:100%;
+}
+tr
+{
+
+    height: 28px;
+}
+
+input, select
+{
+
+}
+.formulario{
+    box-shadow:none;
+}
+.derecha
+{
+    float:right;
+}
+.centrado
+{
+    margin:0 auto;
+    text-align: center;
+}
+
+h4
+{
+    text-align:center;
+    font-size:24px;
+    color:#ffb903;
+}
+.respuestas ul li
+{
+
+}
+select{
+    display: block;
+    width: auto;
+
+}
+.respuestas select{
+
+    /*float: right;*/
+    height: 20px;
+}
+.respuestas ul
+{
+    list-style: none;
+}
+/************************************/
+legend
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+#formRegistro
+{
+
+    margin: 0 auto;
+}
+fieldset input
+{
+    width:100%; 
+}
+.tRadio
+{
+    width: 15%;
+}
+.pregunta input 
+{
+    cursor:pointer;
+}
+
+/************************************/
+.imagenLogo{
+    width: 60%;
+}
+#cuestionario{
+    
+}
+div.barraLateral{
+    position: relative;
+    z-index: -10;
+}
+select#seleccion{
+    display: none;
+}
+select#seleccion2{
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    outline: none;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: block;
+}
+#seleccion2 option{
+    font-size: 16px;
+    color: #26a69a;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+.foot-lnk a{
+    color: azure;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.foot-lnk {
+    color: azure;
+    text-align: center;
+}
+
+

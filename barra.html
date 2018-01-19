@@ -1,0 +1,286 @@
+<style>
+    .grad {
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        right: -40px;
+        bottom: -40px;
+        width: auto;
+        height: auto;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65)));
+        /* Chrome,Safari4+ */
+        z-index: 1;
+        opacity: 0.7;
+        background-image: url(images/materiales.png);
+        background-size: cover;
+    }
+    
+    .header {
+        position: absolute;
+        top: calc(50% - 35px);
+        left: calc(50% - 255px);
+        z-index: 2;
+    }
+    
+    .modal .modal-content {
+        padding: 181px !important;
+    }
+    
+    .header div {
+        float: left;
+        color: #fff;
+        font-family: 'Exo', sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+    }
+    
+    .header div span {
+        color: #5379fa !important;
+    }
+    
+    .login {
+        position: absolute;
+        top: calc(50% - 75px);
+        left: calc(50% - 50px);
+        height: 150px;
+        width: 350px;
+        padding: 10px;
+        z-index: 2;
+    }
+    
+    .login input[type=text] {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        border-radius: 2px;
+        color: #fff;
+        font-family: 'Exo', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+    }
+    
+    .login input[type=password] {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        border-radius: 2px;
+        color: #fff;
+        font-family: 'Exo', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+        margin-top: 10px;
+    }
+    
+    .login input[type=button] {
+        width: 260px;
+        height: 35px;
+        background: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 2px;
+        color: #a18d6c;
+        font-family: 'Exo', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+        margin-top: 10px;
+    }
+    
+    .login input[type=button]:hover {
+        opacity: 0.8;
+    }
+    
+    .login input[type=button]:active {
+        opacity: 0.6;
+    }
+    
+    .login input[type=text]:focus {
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.9);
+    }
+    
+    .login input[type=password]:focus {
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.9);
+    }
+    
+    .login input[type=button]:focus {
+        outline: none;
+    }
+    
+    ::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    ::-moz-input-placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+</style>
+<header class="negro">
+    <nav class="navbar-extended" style="background-color: white;">
+        <div class="navbar-wrapper">
+
+            <a class="titulo" style="margin:8px; color:black; font-size:23px;">Grupo de investigación en la enseñanza de Física</a>
+            <a class="titulo2">Sistema 4MAT</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="color:black">menu</i></a>
+
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down" style="color: black;">
+                <!------PONER ID ACTUAL AL QUE ESTES EDITANDO---------------->
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#">Directorio</a></li>
+                <li><a href="#">Documentos</a></li>
+                <li><a href="#modal_login">Encuesta Piloto</a></li>
+                <li id='actual'><a href="4mat.php">4MAT</a></li>
+                <li><a href="#">Contacto</a></li>
+
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#">Directorio</a></li>
+                <li><a href="#">Documentos</a></li>
+                <li><a href="#modal_login">Encuesta Piloto</a></li>
+                <li id='actual'><a href="4mat.php">4MAT</a></li>
+                <li><a href="#">Contacto</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+</header>
+
+
+<div id="modal_login" class="modal" style="overflow: hidden;">
+    <div class="modal-content">
+        <div class="grad"></div>
+        <div class="header">
+            <div>
+                <div style="text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px">Sistema</div><span style="color:#0c3342 !important">4MAT</span>
+            </div>
+
+        </div>
+        <br>
+        <form id="Login">
+            <div class="login">
+                <input type="text" placeholder="correo" name="user" id="user"><br>
+                <input type="password" placeholder="contraseña" name="pass" id="pass"><br>
+                <div class="foot-lnk">
+                    <a href="#modalContrasena">Olvide Contraseña</a>
+                </div>
+                <a href="EncuestaPiloto.php" target="_blank"><input type="button" value="Iniciar Sesion" id="btn-Entrar"></a>
+                <a href="registroEncuesta.php"><input type="button" value="Registrarse"> </a>
+            </div>
+        </form>
+    </div>
+
+</div>
+<div id="modalContrasena" class="modal">
+    <div class="modal-content">
+        <h4>Recuperaci&oacute;n de Contrase&ntilde;as</h4>
+        <p>Ingrese su correo electr&oacute;nico, nuestro sistema buscar&aacute; su clave y la enviar&aacute; en un mensaje a esta misma direcci&oacute;n </p>
+        <p>(no olvide buscar en la carpeta de SPAM)</p>
+        <div class="row">
+            <form class="col s12" id="recuperar">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" name="email">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col offset-s5">
+                    <a class="waves-effect waves-light btn center" id="btn-recuperar">Buscar</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+  
+
+    $(document).ready(function() {
+        
+        //PARA DETECTAR EL ENTER
+        $('#Login').keydown(function (e){
+            if(e.keyCode == 13){
+                $.ajax({
+                type: "post",
+                url: "controlador/loginEncuesta.php",
+                data: $("#Login").serialize(),
+                success: function(resp) {
+
+                    if (resp == 1) {
+                        //window.close();
+                        //window.open("EncuestaPiloto.php");	
+                        window.location.replace("EncuestaPiloto.php");
+                    } else {
+                        alert("Correo o contraseña incorrectos.")
+                    }
+
+                }
+            });
+
+            return false;
+            }
+        })
+        
+        $("#btn-Entrar").click(function(e) {
+            //alert($("#Registrar").serialize());
+
+            $.ajax({
+                type: "post",
+                url: "controlador/loginEncuesta.php",
+                data: $("#Login").serialize(),
+                success: function(resp) {
+
+                    if (resp == 1) {
+                        //window.close();
+                        //window.open("EncuestaPiloto.php");	
+                        window.location.replace("EncuestaPiloto.php");
+                    } else {
+                        alert("Correo o contraseña incorrectos.")
+                    }
+
+                }
+            });
+
+            return false;
+
+        });
+
+        $("#btn-recuperar").click(function(e) {
+            alert($("#recuperar").serialize());
+            $.ajax({
+                type: "post",
+                url: "recuperaPass.php",
+                data: $("#recuperar").serialize(),
+                success: function(resp) {
+
+                    if (resp == 1) {
+                        alert("Se ha enviado una nueva clave a su correo. No olvide checar la seccion de SPAM")
+                        //window.open("EncuestaPiloto.php");	
+                        //window.location.replace("EncuestaPiloto.php");
+                    } else {
+                        alert(resp);
+                    }
+
+                }
+            });
+
+            return false;
+
+
+        });
+
+        $('.modal').modal();
+    });
+
+</script>

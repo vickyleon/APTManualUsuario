@@ -3,8 +3,7 @@
 \contentsline {section}{\numberline {1.1}Entorno De Trabajo}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Dise\IeC {\~n}o}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Iconograf\IeC {\'\i }a}{1}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Organizaci\IeC {\'o}n}{3}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.1.4}Componentes Utilizados}{3}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.3}Componentes Utilizados}{3}{subsection.1.1.3}
 \contentsline {subsubsection}{Componente de Ejemplo}{3}{section*.2}
 \contentsline {chapter}{\numberline {2}Proceso Iniciar Sesi\IeC {\'o}n}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}Paso 1. Iniciar sesi\IeC {\'o}n}{6}{section.2.1}
@@ -12,10 +11,36 @@
 \contentsline {subsection}{\numberline {2.1.2}Error E1-A: usuario no registrado}{7}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Error E1-B: contrase\IeC {\~n}a equivocada}{7}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Bienvenida del administrador de 4MAT}{7}{subsection.2.1.4}
-\contentsline {chapter}{\numberline {3}Proceso Cerrar sesi\IeC {\'o}n}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Paso 1 de Cerrar sesi\IeC {\'o}n. Localizar bot\IeC {\'o}n}{10}{section.3.1}
-\contentsline {chapter}{\numberline {4}Proceso de Registrar a un usuario}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Paso 1 de Registrar a un usuario}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Subpaso 1-A: Iniciar registro de un usuario}{11}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Paso 2 Agregar datos del Usuario}{11}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Subpaso 2-A: Ingresar datos del usuario}{11}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {3}Proceso Actualizar informaci\IeC {\'o}n de usuario}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Paso 1 de Actualizar informaci\IeC {\'o}n de usuario. Iniciar actualizaci\IeC {\'o}n}{10}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Subpaso 1-A: Iniciar actualizaci\IeC {\'o}n de informaci\IeC {\'o}n de usuario}{10}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Paso 2 de Actualizar informaci\IeC {\'o}n de usuario. Modificar informaci\IeC {\'o}n}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Subpaso 2-B: Cambiar contrase\IeC {\~n}a}{10}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Paso 3 de Actualizar informaci\IeC {\'o}n de usuario. Confirmar informaci\IeC {\'o}n}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Subpaso 3-A: Confirmar Informaci\IeC {\'o}n}{11}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Proceso Cerrar sesi\IeC {\'o}n}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Paso 1 de Cerrar sesi\IeC {\'o}n. Localizar bot\IeC {\'o}n}{12}{section.4.1}
+\contentsline {chapter}{\numberline {5}Proceso de Registrar a un usuario}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Paso 1 de Registrar a un usuario}{13}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Subpaso 1-A: Iniciar registro de un usuario}{13}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Paso 2 Agregar datos del Usuario}{13}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Subpaso 2-A: Ingresar datos del usuario}{13}{subsection.5.2.1}
+\contentsline {chapter}{\numberline {6}Proceso Contestar encuesta}{16}{chapter.6}
+\contentsline {section}{\numberline {6.1}Paso 1 de Contestar encuesta.}{16}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Subpaso 1-A: Escala de dificultad}{16}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Subpaso 1-B: Opini\IeC {\'o}n de la pregunta}{16}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Paso 2 de Contestar encuesta. Contestar encuesta sobre el servicio de pr\IeC {\'e}stamos}{16}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Subpaso 1-A: Contestar preguntas de la opini\IeC {\'o}n del cuestionario en general }{16}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}ER-01: Cancelar env\IeC {\'\i }o de las respuestas de la encuesta}{18}{subsection.6.2.2}
+\contentsline {chapter}{\numberline {7}Proceso Consultar Estad\IeC {\'\i }sticas }{20}{chapter.7}
+\contentsline {section}{\numberline {7.1}Por profesor.}{21}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Subpaso 1-A: Iniciar estad\IeC {\'\i }sticas por profesor}{21}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Subpaso 1-B: Muestra de Estad\IeC {\'\i }sticas}{21}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Subpaso 1-C: Muestra de Opini\IeC {\'o}n por cada pregunta}{22}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Por pregunta}{22}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Subpaso 1-A: Iniciar estad\IeC {\'\i }sticas por pregunta}{22}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Subpaso 1-B: Muestra de Pregunta}{22}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Subpaso 1-C: Opini\IeC {\'o}n de cada profesor}{22}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Por Opiniones del cuestionario}{22}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Subpaso 1-A: Iniciar estad\IeC {\'\i }sticas por Opiniones del cuestionario}{22}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Subpaso 1-B: Muestra de Opiniones generales}{22}{subsection.7.3.2}
